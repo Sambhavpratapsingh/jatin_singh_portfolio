@@ -349,6 +349,12 @@ body {
     font-weight: 600;
 }
 
+.swiper-wrapper{
+    overflow:scroll;
+
+    scrollbar-width:none;
+}
+
 .journey-card {
     background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(12px);
@@ -529,3 +535,4 @@ footer {
         flex-direction: column;
     }
 }
+
