@@ -348,10 +348,8 @@ body {
     color: #d4af37;
     font-weight: 600;
 }
-
 .swiper-wrapper{
     overflow:scroll;
-
     scrollbar-width:none;
 }
 
@@ -535,4 +533,5 @@ footer {
         flex-direction: column;
     }
 }
+
 
