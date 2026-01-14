@@ -362,8 +362,9 @@ body {
     box-shadow: 0 18px 40px rgba(0,0,0,0.5);
     transition: 0.3s ease;
     height: 100%;
+    min-width: 350px;
     width: 30%;
-    margin: 15px auto;
+    margin: 15px ;
     display: flex;
     flex-direction: column;
 }
@@ -533,5 +534,6 @@ footer {
         flex-direction: column;
     }
 }
+
 
 
