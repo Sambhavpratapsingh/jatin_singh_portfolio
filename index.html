@@ -40,11 +40,67 @@
       }
     }
     </script>
-
+     
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        /* Social icon base */
+.s-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: #222;
+    transition: all 0.35s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Hover effect */
+.s-icon:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Instagram gradient */
+.s-icon .fa-instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Instagram hover */
+.s-icon:hover .fa-instagram {
+    -webkit-text-fill-color: #fff;
+}
+
+/* Facebook color */
+.s-icon .fa-facebook {
+    color: #1877f2;
+}
+
+/* Facebook hover */
+.s-icon:hover .fa-facebook {
+    color: #fff;
+}
+
+/* Individual hover backgrounds */
+.s-icon:hover:has(.fa-instagram) {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.s-icon:hover:has(.fa-facebook) {
+    background: #1877f2;
+}
+
+    </style>
 </head>
 
 <body>
@@ -603,3 +659,4 @@
 </body>
 
 </html>
+
